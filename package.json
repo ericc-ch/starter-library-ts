@@ -1,20 +1,19 @@
 {
   "name": "pkg-placeholder",
-  "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b",
   "description": "_description_",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
-  "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
+  "keywords": [],
   "homepage": "https://github.com/antfu/pkg-placeholder#readme",
+  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antfu/pkg-placeholder.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
-  "keywords": [],
+  "funding": "https://github.com/sponsors/antfu",
+  "license": "MIT",
+  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "sideEffects": false,
+  "type": "module",
   "exports": {
     ".": "./dist/index.mjs"
   },
@@ -36,17 +35,21 @@
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",
+    "prepare": "simple-git-hooks",
     "prepublishOnly": "nr build",
     "release": "bumpp && pnpm publish",
     "start": "tsx src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit",
-    "prepare": "simple-git-hooks"
+    "typecheck": "tsc --noEmit"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.14.0",
-    "@antfu/ni": "^23.2.0",
-    "@antfu/utils": "^8.1.0",
+    "@echristian/eslint-config": "^0.0.16",
     "@types/node": "^22.10.6",
     "bumpp": "^9.10.1",
     "eslint": "^9.18.0",
@@ -59,10 +62,5 @@
     "vite": "^6.0.7",
     "vitest": "^2.1.8"
   },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "eslint --fix"
-  }
+  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b"
 }

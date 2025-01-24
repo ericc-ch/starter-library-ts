@@ -1,8 +1,6 @@
 // @ts-check
-import antfu from '@antfu/eslint-config'
+import config from '@echristian/eslint-config'
 
-export default antfu(
-  {
-    type: 'lib',
-  },
+export default config(
+
 )
