@@ -3,15 +3,13 @@
   "version": "0.0.0",
   "description": "_description_",
   "keywords": [],
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
+  "homepage": "https://github.com/ericc-ch/pkg-placeholder#readme",
+  "bugs": "https://github.com/ericc-ch/pkg-placeholder/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/ericc-ch/pkg-placeholder.git"
   },
-  "funding": "https://github.com/sponsors/antfu",
-  "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Erick Christian <erickchristian48@gmail.com>",
   "sideEffects": false,
   "type": "module",
   "exports": {
