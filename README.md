@@ -7,4 +7,4 @@ _description_
 
 ## License
 
-[MIT](./LICENSE) License
+[Mozilla Public License 2.0](./LICENSE.md) License
