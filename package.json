@@ -18,7 +18,7 @@
     }
   },
   "bin": {
-    "pkg-placeholder": "./dist/cli.js"
+    "@echristian/pkg-placeholder": "./dist/cli.js"
   },
   "files": [
     "dist"
