@@ -10,7 +10,6 @@
     "url": "git+https://github.com/ericc-ch/pkg-placeholder.git"
   },
   "author": "Erick Christian <erickchristian48@gmail.com>",
-  "sideEffects": false,
   "type": "module",
   "exports": {
     ".": {
