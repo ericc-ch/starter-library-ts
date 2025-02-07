@@ -27,7 +27,7 @@
     "build": "tsup",
     "lint": "eslint .",
     "prepare": "simple-git-hooks",
-    "prepublishOnly": "pnpm run build",
+    "prepack": "pnpm run build",
     "release": "bumpp && pnpm publish --access public",
     "start": "tsx src/cli.ts",
     "test": "vitest",
