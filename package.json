@@ -26,8 +26,8 @@
   "scripts": {
     "build": "tsup",
     "lint": "eslint .",
-    "prepare": "simple-git-hooks",
     "prepack": "pnpm run build",
+    "prepare": "simple-git-hooks",
     "release": "bumpp && pnpm publish --access public",
     "start": "tsx src/cli.ts",
     "test": "vitest",
