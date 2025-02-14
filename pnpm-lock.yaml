@@ -13,8 +13,8 @@ importers:
         version: 0.1.6
     devDependencies:
       '@echristian/eslint-config':
-        specifier: ^0.0.20
-        version: 0.0.20(@types/eslint@9.6.1)(@types/estree@1.0.6)(@typescript-eslint/eslint-plugin@8.24.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(jsonc-eslint-parser@2.4.0)(typescript@5.7.3)
+        specifier: ^0.0.21
+        version: 0.0.21(@types/eslint@9.6.1)(@types/estree@1.0.6)(@typescript-eslint/eslint-plugin@8.24.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(jsonc-eslint-parser@2.4.0)(typescript@5.7.3)
       '@types/node':
         specifier: ^22.13.4
         version: 22.13.4
@@ -48,8 +48,8 @@ packages:
   '@altano/repository-tools@0.1.1':
     resolution: {integrity: sha512-5vbUs2A98CC3g1AlOBdkBE0BMukkLjLIsMHAtuxg6Pt9dQXxYWdLKOf66v6c/vIqtNcgTMv0oGtddLdMuH9X6w==}
 
-  '@echristian/eslint-config@0.0.20':
-    resolution: {integrity: sha512-72qGMv+VhxQJG2lp4rRGgmMARoliBD4hjkuUDw3zU0UQ4xqFBYg7NV1OY2zEf/UTLbn/d3eNT7uLIWP/kPcScw==}
+  '@echristian/eslint-config@0.0.21':
+    resolution: {integrity: sha512-/5BwfIWlnw5Jkx0u0FL0+AG+hBeL2LYnnEsh6ABjLPDeEkZsIO/IMHhi2YZ2iYUVwoqYt5TLLL+vdHwYdtJuZg==}
     peerDependencies:
       eslint: '>= 9.0.0'
 
@@ -914,8 +914,8 @@ packages:
       '@types/estree':
         optional: true
 
-  eslint-plugin-de-morgan@1.0.0:
-    resolution: {integrity: sha512-MpaG9bTiiu0kvOskZPKvKguynFFC81nyynnY3czHOZvfhvsWFgfRG6ufQmSlzlDbWIf6u7fuEHp4+1uUfWdrvg==}
+  eslint-plugin-de-morgan@1.0.1:
+    resolution: {integrity: sha512-9YeZT7JvVOuYuhnvNsLmuGl/MebRJZL14W5aQFbr580LMRxzDyEhhFgB+/rvFdsHZ6ygd+CF7zlJ40e6VOPNag==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -1896,7 +1896,7 @@ snapshots:
 
   '@altano/repository-tools@0.1.1': {}
 
-  '@echristian/eslint-config@0.0.20(@types/eslint@9.6.1)(@types/estree@1.0.6)(@typescript-eslint/eslint-plugin@8.24.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(jsonc-eslint-parser@2.4.0)(typescript@5.7.3)':
+  '@echristian/eslint-config@0.0.21(@types/eslint@9.6.1)(@types/estree@1.0.6)(@typescript-eslint/eslint-plugin@8.24.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(eslint@9.20.1(jiti@2.4.2))(jsonc-eslint-parser@2.4.0)(typescript@5.7.3)':
     dependencies:
       '@eslint/js': 9.20.0
       '@eslint/json': 0.10.0
@@ -1905,7 +1905,7 @@ snapshots:
       eslint: 9.20.1(jiti@2.4.2)
       eslint-config-flat-gitignore: 2.0.0(eslint@9.20.1(jiti@2.4.2))
       eslint-config-prettier: 10.0.1(eslint@9.20.1(jiti@2.4.2))
-      eslint-plugin-de-morgan: 1.0.0(eslint@9.20.1(jiti@2.4.2))
+      eslint-plugin-de-morgan: 1.0.1(eslint@9.20.1(jiti@2.4.2))
       eslint-plugin-package-json: 0.26.0(@types/estree@1.0.6)(eslint@9.20.1(jiti@2.4.2))(jsonc-eslint-parser@2.4.0)
       eslint-plugin-perfectionist: 4.9.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
       eslint-plugin-prettier: 5.2.3(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@9.20.1(jiti@2.4.2)))(eslint@9.20.1(jiti@2.4.2))(prettier@3.5.1)
@@ -2651,7 +2651,7 @@ snapshots:
     optionalDependencies:
       '@types/estree': 1.0.6
 
-  eslint-plugin-de-morgan@1.0.0(eslint@9.20.1(jiti@2.4.2)):
+  eslint-plugin-de-morgan@1.0.1(eslint@9.20.1(jiti@2.4.2)):
     dependencies:
       eslint: 9.20.1(jiti@2.4.2)
 
