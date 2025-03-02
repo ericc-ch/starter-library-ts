@@ -1,8 +1,10 @@
 {
-  "name": "@echristian/pkg-placeholder",
+  "name": "pkg-placeholder",
   "version": "0.0.0",
   "description": "_description_",
-  "keywords": [],
+  "keywords": [
+    "pkg-placeholder"
+  ],
   "homepage": "https://github.com/ericc-ch/pkg-placeholder",
   "bugs": "https://github.com/ericc-ch/pkg-placeholder/issues",
   "repository": {
@@ -18,7 +20,7 @@
     }
   },
   "bin": {
-    "@echristian/pkg-placeholder": "./dist/cli.js"
+    "pkg-placeholder": "./dist/cli.js"
   },
   "files": [
     "dist"
@@ -43,8 +45,8 @@
     "citty": "^0.1.6"
   },
   "devDependencies": {
-    "@echristian/eslint-config": "^0.0.23",
-    "@types/node": "^22.13.5",
+    "@echristian/eslint-config": "^0.0.24",
+    "@types/node": "^22.13.8",
     "bumpp": "^10.0.3",
     "eslint": "^9.21.0",
     "jiti": "^2.4.2",
@@ -52,7 +54,7 @@
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.4.0",
     "tsx": "^4.19.3",
-    "typescript": "^5.7.3",
+    "typescript": "^5.8.2",
     "vitest": "^3.0.7"
   },
   "packageManager": "pnpm@10.5.2",
