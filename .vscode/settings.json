@@ -6,5 +6,7 @@
   },
   "cSpell.words": [
     "echristian"
-  ]
+  ],
+  
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
