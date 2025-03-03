@@ -45,7 +45,7 @@
     "citty": "^0.1.6"
   },
   "devDependencies": {
-    "@echristian/eslint-config": "^0.0.26",
+    "@echristian/eslint-config": "^0.0.27",
     "@types/node": "^22.13.8",
     "bumpp": "^10.0.3",
     "eslint": "^9.21.0",
