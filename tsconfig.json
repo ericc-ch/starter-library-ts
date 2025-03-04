@@ -2,27 +2,19 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext"],
-
     "module": "ESNext",
+    "skipLibCheck": true,
+    
     "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "resolvePackageJsonImports": true,
-    "resolvePackageJsonExports": true,
+    "moduleDetection": "force",
+    "erasableSyntaxOnly": true, 
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
 
     "strict": true,
-    "strictNullChecks": true,
-    "strictBindCallApply": true,
-    "strictBuiltinIteratorReturn": true,
-    "strictFunctionTypes": true,
-    "strictPropertyInitialization": true,
-
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "erasableSyntaxOnly": true,
-    "verbatimModuleSyntax": true,
-
-    "noEmit": true,
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   }
 }
