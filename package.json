@@ -45,19 +45,20 @@
     "citty": "^0.1.6"
   },
   "devDependencies": {
-    "@echristian/eslint-config": "^0.0.27",
-    "@types/node": "^22.13.8",
+    "@echristian/eslint-config": "^0.0.32",
+    "@types/node": "^22.13.10",
     "bumpp": "^10.0.3",
-    "eslint": "^9.21.0",
+    "eslint": "^9.22.0",
     "jiti": "^2.4.2",
     "lint-staged": "^15.4.3",
+    "prettier-plugin-packagejson": "^2.5.10",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.4.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
-    "vitest": "^3.0.7"
+    "vitest": "^3.0.8"
   },
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@10.6.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild",
