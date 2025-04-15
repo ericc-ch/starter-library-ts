@@ -5,6 +5,4 @@ _description_
 > **Note**:
 > Replace `pkg-placeholder` and `_description_` globally to use this template.
 
-## License
-
-[Mozilla Public License 2.0](./LICENSE.md) License
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E519XS7W)
