@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/ericc-ch/pkg-placeholder.git"
   },
-  "author": "Erick Christian <erickchristian48@gmail.com>",
+  "author": {
+    "name": "Erick Christian",
+    "email": "erickchristian48@gmail.com"
+  },
   "type": "module",
   "exports": {
     ".": {
