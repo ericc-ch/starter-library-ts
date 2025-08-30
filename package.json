@@ -9,7 +9,7 @@
   "bugs": "https://github.com/ericc-ch/pkg-placeholder/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericc-ch/pkg-placeholder.git"
+    "url": "https://github.com/ericc-ch/pkg-placeholder.git"
   },
   "author": {
     "name": "Erick Christian",
