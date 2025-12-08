@@ -1,10 +1,8 @@
-import { defineCommand, runMain } from "citty"
+import yargs from "yargs"
+import { hideBin } from "yargs/helpers"
 
-const main = defineCommand({
-  meta: {
-    name: "pkg-placeholder",
-    description: "_description_",
-  },
-})
-
-void runMain(main)
+await yargs(hideBin(process.argv))
+  .scriptName("pkg-placeholder")
+  .usage("$0 <cmd> [args]")
+  .help()
+  .parse()
