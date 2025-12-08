@@ -6,5 +6,6 @@ export default defineConfig({
   target: "esnext",
   platform: "node",
 
+  unbundle: true,
   sourcemap: true,
 })
