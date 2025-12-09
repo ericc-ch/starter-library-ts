@@ -33,7 +33,7 @@
     "format": "oxfmt",
     "lint": "oxlint",
     "prepack": "bun run build",
-    "release": "bumpp && bun publish",
+    "release": "bumpp && npm publish",
     "start": "bun run src/cli.ts",
     "typecheck": "tsc"
   },
