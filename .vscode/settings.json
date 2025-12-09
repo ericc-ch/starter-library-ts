@@ -4,9 +4,7 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never"
   },
-  "cSpell.words": [
-    "echristian"
-  ],
-  
+  "cSpell.words": ["echristian"],
+
   "typescript.tsdk": "node_modules/typescript/lib"
 }
